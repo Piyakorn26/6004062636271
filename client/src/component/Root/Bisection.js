@@ -190,18 +190,6 @@ class Bisection extends Component {
                         <h1 className="title is-1 has-text-dark">Chart</h1>
                         <hr className="is-divider"/>
                         <LineChart Data={this.state.Arr}/>
-                        <div>
-                            <Plot
-                                data={[
-                                    {
-                                        x:X,
-                                        y:Y,
-                                        type:'scatter'
-                                    }
-                                ]}
-                                latout={{width:500,height:300}}
-                            />
-                        </div>
                         </div> 
                         </div>
                       }
